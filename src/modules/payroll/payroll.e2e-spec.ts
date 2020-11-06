@@ -5,8 +5,6 @@ import * as request from 'supertest';
 import { PayrollModule } from './payroll.module';
 import { PayrollInMemoryRepository } from './payroll.repository';
 
-
-
 describe('PayrollController', () => {
   let app: INestApplication;
 
